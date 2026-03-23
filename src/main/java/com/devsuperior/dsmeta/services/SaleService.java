@@ -20,4 +20,6 @@ public class SaleService {
 		Sale entity = result.get();
 		return new SaleMinDTO(entity);
 	}
+
+	
 }
